@@ -1,0 +1,130 @@
+*{list-style-type: none;
+    text-decoration: none;
+}
+.header-class{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    }
+    
+  
+
+
+
+.ul-class{display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+
+
+
+.headerimg{ height: 20px;
+width: 80px;}
+
+
+
+
+
+.section-class{
+display: flex;
+justify-content: center;
+color: white;
+height: calc(100vh - 60px);
+width: 100%;}
+
+.overlay {
+background-color: rgba(0,0,0,0.5);
+z-index: 0;}
+
+
+
+.main-img{
+width: 100%;
+height: calc(100vh - 60px);
+z-index: -1;}
+
+.cont-h1{
+font-size: 50px;
+position: absolute;
+z-index: 1;
+font-family: dejavu-sanscaps;
+margin-top: 150px;} 
+
+.cont-p{
+position: absolute;
+z-index: 1;
+margin-top: 220px;}
+
+.cont-a{
+background-color: #BADC58;
+color:#181818;
+border-radius: 10px;
+padding: 20px 50px;
+border: 1px solid #BADC58;
+font-size: 14px;
+margin-top:300px;
+position: absolute;
+z-index: 1;} 
+a:hover{
+color: #BADC58;
+}
+
+
+.scroll{font-size: 20px;
+position: absolute;
+z-index: 1;
+color: white;
+margin-top: 400px;
+}
+.scroll::after{
+content: url(scroll.png);
+display: block;
+display: flex;
+justify-content: center;}
+   
+
+
+
+
+.menu-class{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    box-shadow: 0 3px 6px 0 
+rgba(0, 0, 0, 0.16);
+background-color:#fff;
+position: relative;}
+
+.menu-class::before{
+    content: '';
+    display: flex;
+    margin-left: 120px;
+    top: -57px;
+    width: 80%;
+    height: 57px; 
+    position: absolute;
+    background-color: #fff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;}
+ 
+.menu-title{text-align: center;
+width: 100%;}
+
+.list{display: flex;
+    flex-wrap: wrap;
+justify-content: space-around;}
+
+
+.pasta{display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: calc((100% / 3) - 20px);
+    border-radius: 20px;
+    padding: 29px;
+    box-sizing: border-box;}
+   
